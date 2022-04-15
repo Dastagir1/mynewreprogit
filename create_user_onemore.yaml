@@ -1,0 +1,8 @@
+---
+- name: create onemore user
+  hosts: all
+  become: true
+  tasks:
+  - name: create user akshay
+    user: 
+      name: akshay
